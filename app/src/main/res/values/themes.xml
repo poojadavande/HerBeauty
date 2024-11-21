@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HerBeauty" parent="Theme.Material3.DayNight">
+        <item name="materialButtonStyle">@style/Widget.AppCompat.Button</item>
+    </style>
+
+
+
+ <style name="Theme.HerBeauty" parent="Base.Theme.HerBeauty" />
+    <style name="Base.Theme.splashscreen." parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Base.Theme.splashscreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="color">@color/lite_pink</item>
+    </style>
+
+</resources>

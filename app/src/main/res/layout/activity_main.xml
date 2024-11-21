@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:layout_width="@dimen/_280sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_height="@dimen/_400sdp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v_flipper"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/lite_pink"
+        android:outlineSpotShadowColor="@color/lite_pink"
+        android:layout_gravity="center"
+        android:id="@+id/crd_services">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SERVICES 🥇"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/_22sdp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/lite_pink"
+        android:outlineSpotShadowColor="@color/lite_pink"
+        android:layout_gravity="center"
+        android:id="@+id/crd_gallery">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GALLERY 👸"
+            android:textColor="@color/purple"
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/_22sdp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/lite_pink"
+        android:outlineSpotShadowColor="@color/lite_pink"
+        android:layout_gravity="center"
+        android:id="@+id/crd_appoiment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="APPOINMENT 📑"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/_22sdp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        app:cardBackgroundColor="@color/lite_pink"
+        android:outlineSpotShadowColor="@color/lite_pink"
+        android:layout_gravity="center"
+        android:id="@+id/crd_feedback">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FEEDBACK 🧾"
+            android:textColor="@color/purple"
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/_22sdp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"/>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

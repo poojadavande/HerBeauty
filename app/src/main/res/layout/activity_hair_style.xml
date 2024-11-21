@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HairStyleActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hair Styles 👱‍🏼‍"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold|normal"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="@color/pink"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Cuts"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold|normal"
+                android:layout_marginLeft="@dimen/_120sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="@dimen/_8sdp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:src="@drawable/pic1"
+                android:id="@+id/hair1"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Straightening"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold|normal"
+                android:layout_marginLeft="@dimen/_90sdp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="@dimen/_8sdp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pic2"
+                android:id="@+id/hair2"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keratin Treatment"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold|normal"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="@dimen/_8sdp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pic3"
+                android:id="@+id/hair3"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hair Straightening"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold|normal"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="@dimen/_8sdp"/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:src="@drawable/pic4"
+                android:id="@+id/hair4"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

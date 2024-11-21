@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/girl_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold|normal"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1) pooja Davande"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) Priyanka Bhabad"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3) Kirti Joshi"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4) Vaishnavi Kandekar"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5) Sachin Rathod"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us "
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- poojadavande7@gmail.com"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- vkandekar588@gmail.com"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"/>
+
+
+
+</LinearLayout>

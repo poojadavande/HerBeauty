@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "829296267261",
+    "project_id": "her-beauty-f2b32",
+    "storage_bucket": "her-beauty-f2b32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829296267261:android:6b439623d91e42224b5394",
+        "android_client_info": {
+          "package_name": "com.example.herbeauty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYwBZHEzhQoJS5ge4BtlUgjwkjc738xHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_marginRight="@dimen/_70sdp"
+        android:cropToPadding="true"
+        android:src="@drawable/girl_icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Registration Form"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold|normal" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/lite_pink"
+        android:outlineSpotShadowColor="@color/lite_pink"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_sig_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:drawableLeft="@drawable/signup"
+                android:fontFamily="sans-serif-black"
+                android:backgroundTint="@color/pink"
+                android:hint="  Enter Your Full Name"
+                android:inputType="text"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/et_sig_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:drawableLeft="@drawable/signup"
+                android:fontFamily="sans-serif-black"
+                android:backgroundTint="@color/pink"
+                android:hint="  Enter Your Username"
+                android:inputType="text"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold" />
+
+
+
+            <EditText
+                android:id="@+id/et_sig_pass"
+                android:layout_width="@dimen/_245sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:backgroundTint="@color/pink"
+                android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+                android:drawableTint="@color/pink"
+                android:fontFamily="sans-serif-black"
+                android:hint="  Enter Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/et_sig_con_pass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+                android:drawableTint="@color/pink"
+                android:backgroundTint="@color/pink"
+                android:fontFamily="sans-serif-black"
+                android:hint="  Confirm Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal|bold" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/et_sig_mobile_no"
+                android:drawableLeft="@android:drawable/stat_sys_phone_call"
+                android:drawableTint="@color/pink"
+                android:backgroundTint="@color/pink"
+                android:hint="  Mobile No"
+                android:inputType="number"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:maxLength="10"
+                android:textStyle="bold|normal" />
+
+            <EditText
+                android:id="@+id/et_sig_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:backgroundTint="@color/pink"
+                android:drawableLeft="@android:drawable/ic_dialog_email"
+                android:drawableTint="@color/pink"
+                android:hint="  Enter Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SIGN UP"
+                android:textColor="@color/white"
+                android:id="@+id/btn_signup"
+                android:background="@drawable/buttoncurve"
+                android:backgroundTint="@color/pink"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:textSize="@dimen/_12sdp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

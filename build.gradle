@@ -1,0 +1,23 @@
+buildscript {
+    ext {
+        kotlin_version = '1.9.22' // Keep the Kotlin version you are using
+    }
+    repositories {
+        google() // Ensure google() is added to the repositories
+        mavenCentral()
+    }
+    dependencies {
+        // Google Services plugin (unchanged)
+        classpath 'com.google.gms:google-services:4.4.1'
+        // Kotlin Gradle plugin (unchanged)
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // Android Gradle Plugin (updated version)
+        classpath 'com.android.tools.build:gradle:8.2.2' // Use the latest compatible AGP version
+    }
+
+}
+plugins {
+    id("com.android.application") version "8.2.2" apply false // Update AGP version
+    id("com.android.library") version "8.2.2" apply false // Update AGP version
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false // Keep the Kotlin version
+}

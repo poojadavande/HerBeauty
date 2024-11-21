@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:src="@drawable/girl_icon"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:textSize="@dimen/_22sdp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/pink"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        app:cardCornerRadius="10dp"
+        android:outlineAmbientShadowColor="@color/white"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_feedback"
+            android:layout_height="@dimen/_150sdp"
+            android:hint="Give Your Valuable Feedback Here"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:inputType="date|number"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:textColor="@color/white"
+        android:id="@+id/btn_feedback"
+        android:layout_gravity="center"
+        android:background="@drawable/buttoncurve"
+        android:backgroundTint="@color/pink"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textSize="16dp"/>
+
+</LinearLayout>

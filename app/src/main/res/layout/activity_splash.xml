@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    
+    <ImageView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:id="@+id/logo_img"
+        android:src="@drawable/girl_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_110sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Her Beauty"
+        android:id="@+id/her_beauty"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/pink"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered By"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic|bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_140sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCOE"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/pink"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic|bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_7sdp"/>
+
+
+
+
+
+   
+
+</LinearLayout>

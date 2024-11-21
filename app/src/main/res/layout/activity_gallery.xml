@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALLERY 👀💗"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold|normal"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/bgblue"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img3"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/bgpink"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/img6"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/bgblue"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img1" />
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@color/bgpink"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pooja" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@color/bgblue"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img4"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@color/bgpink"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img5"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@color/bgblue"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img2"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardBackgroundColor="@color/bgpink"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img7"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
